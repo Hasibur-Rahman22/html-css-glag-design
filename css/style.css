@@ -1,0 +1,116 @@
+/* google fonts linking */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+/* Global Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+body h1{
+    background-color: antiquewhite;
+}
+
+.ul{
+    margin: 0;
+    padding: 0%;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    height: 0 auto;
+}
+
+
+/* Social-Media part css */
+.Social-Media{
+
+   text-align: center;
+    position: fixed;
+    left: -190px;
+    transition: 0.5s;
+}
+
+.Social-Media:hover{
+
+left: 0px;
+transition: 0.5s;
+
+}
+
+
+.Social-Media ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1PX solid blue;
+    background-color: blue;
+    width: 60;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+ border-radius: 8px;
+ transition: 0.5s;
+
+}
+.Social-Media ul  li i {
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+
+.Social-Media ul li:hover {
+    
+ 
+ transition: 0.5s;
+ 
+}
+
+
+.Social-Media ul  li:hover i{
+    
+    transition: 0.5s;
+  transform: rotate(360deg);
+}
+
+
+/* position css  flag*/
+
+.green-area{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    left: 65vh;
+    top: 200px;
+  
+}
+
+.red-area{
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
